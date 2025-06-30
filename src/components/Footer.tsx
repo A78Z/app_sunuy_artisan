@@ -534,7 +534,7 @@ const Footer = () => {
               />
             </div>
             <p className="text-primary-200">
-              Grâce à l'appli Suñuy Artisan, nous digitalisons l'artisanat, boostons sa compétitivité et valorisons notre riche patrimoine culturel.
+             Avec Suñuy Artisan, les artisans accèdent enfin aux opportunités de la commande publique, tout en profitant d'une solution digitale qui booste leur activité et valorise notre savoir-faire culturel.
             </p>
             <AnimatedWebsiteLink />
           </motion.div>
@@ -579,22 +579,22 @@ const Footer = () => {
                 <AnimatedLink href="#about">Suñuy Artisan</AnimatedLink>
               </li>
               <li>
-                <AnimatedLink href="#features">Fonctionnalités</AnimatedLink>
+                <AnimatedLink href="#features">Fonctionnalités principales</AnimatedLink>
               </li>
               <li>
-                <AnimatedLink href="#solution">Avantages</AnimatedLink>
+                <AnimatedLink href="#solution">Avantages pour l'Artisan</AnimatedLink>
               </li>
               <li>
-                <AnimatedLink href="#PublicProcurement">Commande Publique</AnimatedLink>
+                <AnimatedLink href="#commande-publique">Commande Publique</AnimatedLink>
               </li>
               <li>
                 <ScrollToTopLink to="/concours">
-                  Concours
+                  Concours National de Reproduction de Prototypes
                 </ScrollToTopLink>
               </li>
               <li>
                 <ScrollToTopLink to="/contact">
-                  Contact
+                  Contactez-nous
                 </ScrollToTopLink>
               </li>
             </ul>

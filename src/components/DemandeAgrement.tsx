@@ -126,7 +126,7 @@ const DemandeAgrement = () => {
               {[
                 { title: "Copie de la CNI", desc: "Carte nationale d'identité en cours de validité (recto-verso)" },
                 { title: "NINEA", desc: "Numéro d'Identification National des Entreprises et Associations" },
-                { title: "Justificatif de résidence", desc: "Facture d'électricité, d'eau ou attestation de domicile récente" },
+                { title: "Certificat de résidence", desc: "Facture d'électricité, d'eau ou attestation de domicile récente" },
                 { title: "Attestation de formation", desc: "Certificat ou diplôme attestant de votre formation professionnelle" },
                 { title: "Photos de réalisations", desc: "Portfolio de vos travaux récents (minimum 5 photos de qualité)" }
               ].map((doc, index) => (

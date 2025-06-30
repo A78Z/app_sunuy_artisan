@@ -340,7 +340,7 @@ const AgrementModal: React.FC<AgrementModalProps> = ({ isOpen, onClose }) => {
                 />
                 
                 <FileUploadField 
-                  label="Justificatif de résidence" 
+                  label="Certificat de résidence" 
                   field="justificatifResidence" 
                   icon={FileText}
                 />
