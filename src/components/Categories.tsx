@@ -398,7 +398,7 @@ const Categories = () => {
                                border border-white/30 text-white text-sm font-medium
                                opacity-0 group-hover:opacity-100 transition-all duration-300"
                     >
-                      Découvrir →
+                      Télécharger l'app →
                     </motion.div>
                   </div>
 
