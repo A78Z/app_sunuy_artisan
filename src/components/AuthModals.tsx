@@ -571,7 +571,7 @@ const AuthModals: React.FC<AuthModalsProps> = ({ isOpen, onClose, onLoginSuccess
                         Type d'entité <span className="text-red-500">*</span>
                       </label>
                       <div className="space-y-3">
-                        {['Dage', "Agence d'exécution", 'Société nationale', 'Autre'].map((type) => (
+                        {['Ministère (Dage)', "Agence d'exécution", 'Société nationale', 'Projet programme', 'Autre'].map((type) => (
                           <label key={type} className="flex items-center">
                             <input
                               type="radio"

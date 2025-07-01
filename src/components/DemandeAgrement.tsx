@@ -81,8 +81,8 @@ const DemandeAgrement = () => {
                   <Clock className="w-4 h-4 text-primary-700" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-primary-800 mb-1">Au moins 3 ans d'expérience</h3>
-                  <p className="text-primary-600 text-sm">Justifier d'une expérience professionnelle d'au minimum 3 années</p>
+                  <h3 className="font-semibold text-primary-800 mb-1">Justification sur le domaine</h3>
+                  <p className="text-primary-600 text-sm">Justifier d'une expérience avérée dans le domaine</p>
                 </div>
               </div>
 
@@ -101,7 +101,7 @@ const DemandeAgrement = () => {
                   <Award className="w-4 h-4 text-primary-700" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-primary-800 mb-1">À jour de ses obligations fiscales</h3>
+                  <h3 className="font-semibold text-primary-800 mb-1">Disposer d'un quitus fiscal</h3>
                   <p className="text-primary-600 text-sm">Être en règle avec l'administration fiscale et sociale</p>
                 </div>
               </div>
@@ -126,7 +126,7 @@ const DemandeAgrement = () => {
               {[
                 { title: "Copie de la CNI", desc: "Carte nationale d'identité en cours de validité (recto-verso)" },
                 { title: "NINEA", desc: "Numéro d'Identification National des Entreprises et Associations" },
-                { title: "Certificat de résidence", desc: "Facture d'électricité, d'eau ou attestation de domicile récente" },
+                { title: "Certificat de résidence", desc: "Facture d'électricité, d'eau ou attestation de domicile récente" }, 
                 { title: "Attestation de formation", desc: "Certificat ou diplôme attestant de votre formation professionnelle" },
                 { title: "Photos de réalisations", desc: "Portfolio de vos travaux récents (minimum 5 photos de qualité)" }
               ].map((doc, index) => (
