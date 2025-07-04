@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Upload, FileText, User, Phone, Mail, MapPin, Award, Camera } from 'lucide-react';
+import { X, Upload, FileText, User, Phone, MapPin, Award, Camera } from 'lucide-react';
 
 interface AgrementModalProps {
   isOpen: boolean;
@@ -190,7 +190,7 @@ const AgrementModal: React.FC<AgrementModalProps> = ({ isOpen, onClose }) => {
           {/* Header */}
           <div className="sticky top-0 bg-white z-10 px-6 py-4 border-b border-gray-200 flex justify-between items-center rounded-t-2xl">
             <h2 className="text-2xl font-bold text-primary-800">
-              Demande d'agrément à la commande publique
+              Demande d'agrément
             </h2>
             <button
               onClick={onClose}
@@ -240,23 +240,6 @@ const AgrementModal: React.FC<AgrementModalProps> = ({ isOpen, onClose }) => {
                     onChange={handleInputChange}
                     className="w-full px-4 py-3 border-2 border-primary-200 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors"
                     placeholder="77 123 45 67"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="email" className="flex items-center gap-2 text-sm font-medium text-primary-700 mb-2">
-                    <Mail className="w-4 h-4" />
-                    Email <span className="text-red-500">*</span>
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                    value={formData.email}
-                    onChange={handleInputChange}
-                    className="w-full px-4 py-3 border-2 border-primary-200 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors"
-                    placeholder="votre@email.com"
                   />
                 </div>
 

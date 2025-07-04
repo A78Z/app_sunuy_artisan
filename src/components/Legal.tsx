@@ -126,6 +126,10 @@ const Legal = () => {
                   <section className="mb-8">
                     <h3 className="text-xl font-semibold text-primary-800 mb-4">7. Politique de Confidentialité</h3>
                     <ul className="list-disc pl-6 text-primary-600 space-y-2">
+                      <p className="text-primary-600">
+                      Le PMN s'engage à protéger les données personnelles des utilisateurs conformément à la législation en vigueur. 
+                      Il se réserve le droit de mettre en œuvre toutes les mesures nécessaires pour garantir la sécurité et la confidentialité de ces données.
+                    </p>
                       <li>Nous collectons et utilisons vos données personnelles conformément à notre Politique de Confidentialité.</li>
                       <li>Vos informations ne seront jamais partagées avec des tiers sans votre consentement explicite, sauf si requis par la loi.</li>
                     </ul>
@@ -147,14 +151,24 @@ const Legal = () => {
                   </section>
 
                   <section className="mb-8">
-                    <h3 className="text-xl font-semibold text-primary-800 mb-4">10. Modifications des Termes et Conditions</h3>
+                    <h3 className="text-xl font-semibold text-primary-800 mb-4">10. Responsabilité en cas de litige</h3>
+                    <p className="text-primary-600">
+                      En cas de litige entre un artisan et un client, le PMN décline toute responsabilité quant aux différends pouvant survenir
+                      entre les parties. Toutefois, si une procédure judiciaire est engagée et que le PMN est sollicité par les autorités compétentes
+                      (forces de l’ordre, juridictions sénégalaises) via un mandat ou une réquisition légale, le PMN s’engage à collaborer en fournissant
+                      les informations requises, notamment celles relatives à la localisation ou aux données personnelles concernées.
+                    </p>
+                  </section>
+
+                  <section className="mb-8">
+                    <h3 className="text-xl font-semibold text-primary-800 mb-4">11. Modifications des Termes et Conditions</h3>
                     <p className="text-primary-600">
                       Nous pouvons modifier ces termes à tout moment. Les utilisateurs seront informés des changements, et leur utilisation continue de l'application après les modifications implique leur acceptation.
                     </p>
                   </section>
 
                   <section className="mb-8">
-                    <h3 className="text-xl font-semibold text-primary-800 mb-4">11. Contact</h3>
+                    <h3 className="text-xl font-semibold text-primary-800 mb-4">12. Contact</h3>
                     <p className="text-primary-600">
                       Pour toute question ou préoccupation concernant ces termes et conditions, veuillez nous contacter via : {' '}
                       <a 

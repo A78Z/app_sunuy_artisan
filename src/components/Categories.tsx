@@ -176,7 +176,7 @@ const DownloadModal = ({ isOpen, onClose, categoryName }: { isOpen: boolean; onC
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
               <div className="space-y-4">
                 <motion.a 
-                  href="#" 
+                  href="https://apps.apple.com/sn/app/su%C3%B1uy-artisan/id6745223088?l=fr-FR" 
                   className="block hover:opacity-90 transition-opacity"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}

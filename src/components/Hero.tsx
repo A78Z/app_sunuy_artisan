@@ -61,7 +61,7 @@ const DownloadModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => vo
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
               <div className="space-y-4">
-                <a href="#" className="block hover:opacity-90 transition-opacity">
+                <a href="https://apps.apple.com/sn/app/su%C3%B1uy-artisan/id6745223088?l=fr-FR" className="block hover:opacity-90 transition-opacity">
                   <img
                     src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
                     alt="Télécharger sur l'App Store"

@@ -645,7 +645,7 @@ const Footer = () => {
               <div className="flex items-center space-x-8">
                 <div className="flex flex-col space-y-4">
                   <motion.a
-                    href="#"
+                    href="https://apps.apple.com/sn/app/su%C3%B1uy-artisan/id6745223088?l=fr-FR"
                     whileHover={{ scale: 1.05 }}
                     className="hover:opacity-80 transition-opacity"
                   >

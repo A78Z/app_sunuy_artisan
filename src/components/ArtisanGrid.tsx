@@ -97,32 +97,6 @@ const mockArtisans: Artisan[] = [
   },
   {
     id: '3',
-    name: 'Omar Ndiaye',
-    profession: 'Électricien',
-    rating: 4.7,
-    image: '/plombier.webp',
-    agreed: true,
-    region: 'Saint-Louis',
-    department: 'Saint-Louis',
-    commune: 'Saint-Louis',
-    address: '789 Rue Blaise Diagne',
-    phone: '+221 78 456 12 34',
-    whatsapp: '+221784561234',
-    company: 'Ndiaye Électricité',
-    cardNumber: 'CART-2024-003',
-    approvalNumber: 'AGR-2024-003',
-    experience: '10 ans d\'expérience',
-    specialties: ['Installation électrique', 'Dépannage', 'Éclairage'],
-    description: 'Électricien professionnel spécialisé dans les installations électriques résidentielles et commerciales. Expert en éclairage moderne.',
-    certifications: ['CAP Électricité', 'Habilitation électrique'],
-    availability: 'Disponible en urgence 24h/24',
-    publicMarkets: [
-      'Installation électrique lycée de Saint-Louis (2023)',
-      'Maintenance éclairage public (2022)'
-    ]
-  },
-  {
-    id: '4',
     name: 'Ibrahima Tall',
     profession: 'Électricien',
     rating: 4.6,
@@ -148,7 +122,7 @@ const mockArtisans: Artisan[] = [
     ]
   },
   {
-    id: '5',
+    id: '4',
     name: 'Fatou Diop',
     profession: 'Carreleur',
     rating: 4.4,
@@ -174,7 +148,7 @@ const mockArtisans: Artisan[] = [
     ]
   },
   {
-    id: '6',
+    id: '5',
     name: 'Moussa Fall',
     profession: 'Peintre',
     rating: 4.9,
@@ -200,7 +174,7 @@ const mockArtisans: Artisan[] = [
     ]
   },
   {
-    id: '7',
+    id: '6',
     name: 'Cheikh Mbaye',
     profession: 'Mécanicien',
     rating: 4.7,
@@ -226,7 +200,7 @@ const mockArtisans: Artisan[] = [
     ]
   },
   {
-    id: '8',
+    id: '7',
     name: 'Cheikh Mboup',
     profession: 'Climatisation',
     rating: 4.5,
@@ -252,7 +226,7 @@ const mockArtisans: Artisan[] = [
     ]
   },
   {
-    id: '9',
+    id: '8',
     name: 'Mame Diarra Sy',
     profession: 'Tapisserie',
     rating: 4.3,
@@ -278,7 +252,7 @@ const mockArtisans: Artisan[] = [
     ]
   },
   {
-    id: '10',
+    id: '9',
     name: 'Abdoulaye Kane',
     profession: 'Électroménager',
     rating: 4.8,
@@ -304,7 +278,7 @@ const mockArtisans: Artisan[] = [
     ]
   },
   {
-    id: '11',
+    id: '10',
     name: 'Awa Ndiaye',
     profession: 'Restauration',
     rating: 4.6,
@@ -330,7 +304,7 @@ const mockArtisans: Artisan[] = [
     ]
   },
   {
-    id: '12',
+    id: '11',
     name: 'El Hadji Sow',
     profession: 'Agroalimentaire',
     rating: 4.4,
@@ -356,7 +330,7 @@ const mockArtisans: Artisan[] = [
     ]
   },
   {
-    id: '13',
+    id: '12',
     name: 'Abdou Seck',
     profession: 'Ameublement',
     rating: 4.7,
@@ -382,7 +356,7 @@ const mockArtisans: Artisan[] = [
     ]
   },
   {
-    id: '14',
+    id: '13',
     name: 'Bineta Thiam',
     profession: 'Confection couture',
     rating: 4.5,
@@ -408,7 +382,7 @@ const mockArtisans: Artisan[] = [
     ]
   },
   {
-    id: '15',
+    id: '14',
     name: 'Mamadou Camara',
     profession: 'Maroquinerie',
     rating: 4.6,
@@ -434,7 +408,7 @@ const mockArtisans: Artisan[] = [
     ]
   },
   {
-    id: '16',
+    id: '15',
     name: 'Awa Diallo',
     profession: 'Blanchisserie',
     rating: 4.3,
@@ -460,7 +434,7 @@ const mockArtisans: Artisan[] = [
     ]
   },
   {
-    id: '17',
+    id: '16',
     name: 'Ibrahima Sow',
     profession: 'Cordonnerie',
     rating: 4.4,
@@ -486,7 +460,7 @@ const mockArtisans: Artisan[] = [
     ]
   },
   {
-    id: '18',
+    id: '17',
     name: 'Aliou Ndoye',
     profession: 'Menuiserie métallique',
     rating: 4.8,
@@ -512,7 +486,7 @@ const mockArtisans: Artisan[] = [
     ]
   },
   {
-    id: '19',
+    id: '18',
     name: 'Alassane Ndour',
     profession: 'Menuiserie aluminium',
     rating: 4.5,
@@ -538,7 +512,7 @@ const mockArtisans: Artisan[] = [
     ]
   },
   {
-    id: '20',
+    id: '19',
     name: 'Mamadou Camara',
     profession: 'Bijouterie',
     rating: 4.7,
