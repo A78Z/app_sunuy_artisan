@@ -7,16 +7,7 @@ const WhatsAppWidget = () => {
   const phoneNumber = "221766248505";
 
   const links = [
-    { 
-      text: "📝 Devenez adhérent !", 
-      url: "https://devenez-adherent-sunuy-artisan.netlify.app/",
-      description: "Rejoignez notre communauté d'artisans"
-    },
-    { 
-      text: "🛠 Demande de Service", 
-      url: "https://demande-service-sunuy-artisan.netlify.app/",
-      description: "Trouvez un artisan qualifié"
-    },
+    
     { 
       text: "💬 Discussion WhatsApp", 
       url: `https://wa.me/${phoneNumber}?text=${encodeURIComponent("Bonjour, j'aimerais en savoir plus sur Suñuy Artisan !")}`,
