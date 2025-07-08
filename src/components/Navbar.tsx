@@ -52,7 +52,7 @@ const Navbar = () => {
               }}
             >
               <img 
-                src="/logo.png" 
+                src="/logo.jpg" 
                 alt="Suñuy Artisan" 
                 className="h-16 w-auto relative z-10"
               />
